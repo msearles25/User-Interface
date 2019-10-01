@@ -64,3 +64,150 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 0 auto;
+	width: 900px;
+}
+nav {
+	/* margin-top: 20px; */
+	background-color: rgba(135,206,250,0.7);
+	padding-bottom: 20px;
+	display: inline-block;
+	position: fixed;
+	width: 900px;
+	z-index: 1;
+	border-radius: 10px;
+}
+nav a{
+	padding-right: 7%;
+	color: grey;
+	opacity: 0.8;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 20px;
+}
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 715px;
+}
+/* End of top  */
+
+header {
+	/* position: relative;
+	height: 500px; */
+	display: inline-block;
+	height: 550px;
+}
+
+.codeSnip {
+	/* position: absolute;
+	left: 57%;
+	bottom: 5%; */
+	width: 385px;
+	margin-left: 500px;
+	margin-top: -500px;
+}
+
+.innovation {
+	font-size: 75px;
+	text-align: center;
+	/* position: absolute;
+	top: 26%;
+	left: 10%; */
+	width: 200px;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+button {
+	/* position: absolute;
+	top: 80%;
+	left: 18%; */
+	background-color: white;
+	padding: 6px 45px;
+	width: 300x;
+	margin-left: 120px;
+	margin-top: 5px;
+}
+
+/* Middle Section */
+.topContent {
+	border-top: 1px solid black;
+	/* position: relative;
+	height: 100px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	padding-top: 30px; */
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+.features {
+	/* position: absolute;
+	width: 450px; */
+	display: inline-block;
+	width: 445px;
+	margin-right: 5px;
+}
+.about {
+	/* box-sizing: border-box;
+	position: absolute;
+	width: 450px;
+	left: 475px; */
+	display: inline-block;
+	width: 445px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* Bottom Content */
+
+.bottomContent {
+	border-bottom: 1px solid black;
+
+	/* position: relative;
+	height: 175px; */
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+	height: 175px;
+}
+.services {
+	width: 290px;
+	display: inline-block;
+	margin-right: 12px;
+}
+.products {
+	width: 290px;
+	/* position: absolute;
+	left: 300px;
+	top: 0; */
+	display: inline-block;
+	margin-right: 10px;
+}
+.vision {
+	width: 290px;
+	/* left: 609px;
+	top: 0;
+	position: absolute; */
+	display: inline-block;
+}
+
+/* contact section */
+
+.number {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
